@@ -43,6 +43,13 @@ export default class HighlightEditing extends Plugin {
 					type: 'marker'
 				},
 				{
+					model: 'redMarker',
+					class: 'marker-red',
+					title: 'Red marker',
+					color: 'var(--ck-highlight-marker-red)',
+					type: 'marker'
+				},
+				{
 					model: 'pinkMarker',
 					class: 'marker-pink',
 					title: 'Pink marker',
@@ -56,6 +63,21 @@ export default class HighlightEditing extends Plugin {
 					color: 'var(--ck-highlight-marker-blue)',
 					type: 'marker'
 				},
+
+				{
+					model: 'yellowPen',
+					class: 'pen-yellow',
+					title: 'Yellow pen',
+					color: 'var(--ck-highlight-pen-yellow)',
+					type: 'pen'
+				},
+				{
+					model: 'greenPen',
+					class: 'pen-green',
+					title: 'Green pen',
+					color: 'var(--ck-highlight-pen-green)',
+					type: 'pen'
+				},
 				{
 					model: 'redPen',
 					class: 'pen-red',
@@ -64,10 +86,17 @@ export default class HighlightEditing extends Plugin {
 					type: 'pen'
 				},
 				{
-					model: 'greenPen',
-					class: 'pen-green',
-					title: 'Green pen',
-					color: 'var(--ck-highlight-pen-green)',
+					model: 'pinkPen',
+					class: 'pen-pink',
+					title: 'Pink pen',
+					color: 'var(--ck-highlight-pen-pink)',
+					type: 'pen'
+				},
+				{
+					model: 'bluePen',
+					class: 'pen-blue',
+					title: 'Pink pen',
+					color: 'var(--ck-highlight-pen-blue)',
 					type: 'pen'
 				}
 			]
