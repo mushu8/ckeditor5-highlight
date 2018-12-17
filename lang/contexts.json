@@ -3,8 +3,14 @@
 	"Green marker": "Toolbar button tooltip for applying green marker (text highlight).",
 	"Pink marker": "Toolbar button tooltip for applying pink marker (text highlight).",
 	"Blue marker": "Toolbar button tooltip for applying blue marker (text highlight).",
+	"Red marker": "Toolbar button tooltip for applying red marker (text highlight).",
+
 	"Red pen": "Toolbar button tooltip for applying red pen (text color).",
 	"Green pen": "Toolbar button tooltip for applying green pen (text color).",
+	"Yellow pen": "Toolbar button tooltip for applying yellow pen (text color).",
+	"Pink pen": "Toolbar button tooltip for applying pink pen (text color).",
+	"Blue pen": "Toolbar button tooltip for applying blue pen (text color).",
+
 	"Remove highlight": "Toolbar button tooltip for removing text highlight.",
 	"Highlight": "Toolbar button tooltip for the text highlight feature."
 }
