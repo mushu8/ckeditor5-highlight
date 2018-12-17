@@ -28,7 +28,7 @@
 		color: var(--ck-highlight-pen-$color)!important;
 
 		/* Override default yellow background of `<mark>` from user agent stylesheet */
-		background-color: transparent;
+		background-color: transparent!important;
 	}
 }
 

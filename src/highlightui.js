@@ -66,8 +66,13 @@ export default class HighlightUI extends Plugin {
 			'Green marker': t( 'Green marker' ),
 			'Pink marker': t( 'Pink marker' ),
 			'Blue marker': t( 'Blue marker' ),
-			'Red pen': t( 'Red pen' ),
-			'Green pen': t( 'Green pen' )
+			'Red marker': t( 'Red marker' ),
+
+			'Yellow pen': t( 'Yellow pen' ),
+			'Green pen': t( 'Green pen' ),
+			'Pink pen': t( 'Pink pen' ),
+			'Blue pen': t( 'Blue pen' ),
+			'Red pen': t( 'Red pen' )
 		};
 	}
 
