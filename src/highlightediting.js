@@ -95,7 +95,7 @@ export default class HighlightEditing extends Plugin {
 				{
 					model: 'bluePen',
 					class: 'pen-blue',
-					title: 'Pink pen',
+					title: 'Blue pen',
 					color: 'var(--ck-highlight-pen-blue)',
 					type: 'pen'
 				}
