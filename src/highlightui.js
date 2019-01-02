@@ -219,6 +219,8 @@ export default class HighlightUI extends Plugin {
 			// Make toolbar button enabled when any button in dropdown is enabled before adding separator and eraser.
 			dropdownView.bind( 'isEnabled' ).toMany( buttons, 'isEnabled', ( ...areEnabled ) => areEnabled.some( isEnabled => isEnabled ) );
 
+			buttons.splice( 4, 0, new ToolbarSeparatorView() );
+
 			// Add separator and eraser buttons to dropdown.
 			buttons.push( new ToolbarSeparatorView() );
 			buttons.push( componentFactory.create( 'removeHighlight' ) );

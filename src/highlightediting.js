@@ -29,42 +29,6 @@ export default class HighlightEditing extends Plugin {
 		editor.config.define( 'highlight', {
 			options: [
 				{
-					model: 'yellowMarker',
-					class: 'marker-yellow',
-					title: 'Yellow marker',
-					color: 'var(--ck-highlight-marker-yellow)',
-					type: 'marker'
-				},
-				{
-					model: 'greenMarker',
-					class: 'marker-green',
-					title: 'Green marker',
-					color: 'var(--ck-highlight-marker-green)',
-					type: 'marker'
-				},
-				{
-					model: 'redMarker',
-					class: 'marker-red',
-					title: 'Red marker',
-					color: 'var(--ck-highlight-marker-red)',
-					type: 'marker'
-				},
-				{
-					model: 'pinkMarker',
-					class: 'marker-pink',
-					title: 'Pink marker',
-					color: 'var(--ck-highlight-marker-pink)',
-					type: 'marker'
-				},
-				{
-					model: 'blueMarker',
-					class: 'marker-blue',
-					title: 'Blue marker',
-					color: 'var(--ck-highlight-marker-blue)',
-					type: 'marker'
-				},
-
-				{
 					model: 'yellowPen',
 					class: 'pen-yellow',
 					title: 'Yellow pen',
@@ -86,18 +50,39 @@ export default class HighlightEditing extends Plugin {
 					type: 'pen'
 				},
 				{
-					model: 'pinkPen',
-					class: 'pen-pink',
-					title: 'Pink pen',
-					color: 'var(--ck-highlight-pen-pink)',
-					type: 'pen'
-				},
-				{
 					model: 'bluePen',
 					class: 'pen-blue',
 					title: 'Blue pen',
 					color: 'var(--ck-highlight-pen-blue)',
 					type: 'pen'
+				},
+				{
+					model: 'yellowMarker',
+					class: 'marker-yellow',
+					title: 'Yellow marker',
+					color: 'var(--ck-highlight-marker-yellow)',
+					type: 'marker'
+				},
+				{
+					model: 'greenMarker',
+					class: 'marker-green',
+					title: 'Green marker',
+					color: 'var(--ck-highlight-marker-green)',
+					type: 'marker'
+				},
+				{
+					model: 'redMarker',
+					class: 'marker-red',
+					title: 'Red marker',
+					color: 'var(--ck-highlight-marker-red)',
+					type: 'marker'
+				},
+				{
+					model: 'blueMarker',
+					class: 'marker-blue',
+					title: 'Blue marker',
+					color: 'var(--ck-highlight-marker-blue)',
+					type: 'marker'
 				}
 			]
 		} );

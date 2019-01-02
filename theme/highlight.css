@@ -6,15 +6,13 @@
 :root {
 	--ck-highlight-marker-yellow: #fdfd77;
 	--ck-highlight-marker-green: #63f963;
-	--ck-highlight-marker-pink: #fc7999;
-	--ck-highlight-marker-blue: #72cdfd;
-	--ck-highlight-marker-red: #e91313;
+	--ck-highlight-marker-blue: #3774cc;
+	--ck-highlight-marker-red: #ee3c67;
 
 	--ck-highlight-pen-yellow: #fdfd77;
 	--ck-highlight-pen-green: #63f963;
-	--ck-highlight-pen-pink: #fc7999;
-	--ck-highlight-pen-blue: #72cdfd;
-	--ck-highlight-pen-red: #e91313;
+	--ck-highlight-pen-blue: #3774cc;
+	--ck-highlight-pen-red: #ee3c67;
 }
 
 @define-mixin highlight-marker-color $color {
@@ -34,12 +32,10 @@
 
 @mixin highlight-marker-color yellow;
 @mixin highlight-marker-color green;
-@mixin highlight-marker-color pink;
 @mixin highlight-marker-color blue;
 @mixin highlight-marker-color red;
 
 @mixin highlight-pen-color yellow;
 @mixin highlight-pen-color green;
-@mixin highlight-pen-color pink;
 @mixin highlight-pen-color blue;
 @mixin highlight-pen-color red;
